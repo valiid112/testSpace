@@ -19,3 +19,9 @@ websockify --web=/usr/share/novnc 6080 localhost:5900 &
 echo ""
 echo "GUI environment is ready!"
 echo "Go to the Ports tab, set port 6080 to Public, and open the link."
+
+apt-get install firefox
+xvfb-run firefox
+
+export DISPLAY=:1
+firefox &
