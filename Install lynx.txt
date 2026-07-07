@@ -3,3 +3,4 @@ lynx &
 lynx 
 sudo apt install terminator
 sudo apt-get install falkon
+sudo snap install falkon
