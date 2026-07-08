@@ -3,7 +3,7 @@ chmod +x start-gui.sh
 ./start-gui.sh
 sudo apt-get install terminator falkon thunar synaptic
 sudo dpkg --add-architecture i386
-
+sudo apt install dbus-x11
 
 
 sudo apt install terminator
