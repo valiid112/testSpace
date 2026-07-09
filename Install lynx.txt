@@ -4,7 +4,7 @@ chmod +x start-gui.sh
 sudo apt-get install terminator falkon thunar synaptic ubuntu-desktop plasma-discover -y
 sudo dpkg --add-architecture i386
 sudo apt install dbus-x11
-
+export $DBUS_SESSION_BUS_ADDRESS = /run/user/$UID/dbus/
 
 sudo apt install terminator
 sudo apt-get install falkon
