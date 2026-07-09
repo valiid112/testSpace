@@ -1,7 +1,7 @@
 sudo apt-get install lynx
 chmod +x start-gui.sh
 ./start-gui.sh
-sudo apt-get install terminator falkon thunar synaptic gnome ubuntu-desktop plasma-discover -y
+sudo apt-get install terminator falkon thunar synaptic ubuntu-desktop plasma-discover -y
 sudo dpkg --add-architecture i386
 sudo apt install dbus-x11
 
