@@ -1,1 +1,15 @@
+chmod +x start-gui.sh
+./start-gui.sh
+sudo apt-get install terminator falkon thunar synaptic ubuntu-desktop plasma-discover -y
+sudo dpkg --add-architecture i386
+sudo apt install dbus-x11
+export $DBUS_SESSION_BUS_ADDRESS =unix:path= /run/user/$UID/dbus/
+sudo apt update
+sudo service dbus start
 
+// untested 
+
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+restart 
