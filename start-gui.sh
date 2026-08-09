@@ -20,7 +20,3 @@ echo ""
 echo "GUI environment is ready!"
 echo "Go to the Ports tab, set port 6080 to Public, and open the link."
 
-sudo apt-get install -y terminator falkon thunar synaptic 
-sudo dpkg --add-architecture i386
-sudo apt install -y wine winetricks 
-terminator
