@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from Pydantic import BaseModel
-#import autogui 
+import autogui 
 
 # get mouse position
 
